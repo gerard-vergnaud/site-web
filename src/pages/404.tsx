@@ -12,7 +12,7 @@ const NotFoundPage = () => {
       </Helmet>
       <h1 className="text-6xl font-bold">404 Not Found</h1>
       <p className="mt-4 text-lg">{t('notFound.message')}</p>
-      <a className="button button-inverted mt-4" href="/">
+      <a className="button button-inverted mt-4" href="/gerard-vergnaud/">
         {t('backToHome')}
       </a>
     </main>

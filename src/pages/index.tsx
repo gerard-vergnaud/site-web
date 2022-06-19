@@ -88,7 +88,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/premiers-exemples"
+              href="/gerard-vergnaud/premiers-exemples"
             >
               {t('firstExamples.title')}
             </a>
@@ -96,7 +96,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/forme-operatoire-et-forme-predictive"
+              href="/gerard-vergnaud/forme-operatoire-et-forme-predictive"
             >
               {t('operatingForm.title')}
             </a>
@@ -104,7 +104,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/activite-representation-et-conceptualisation"
+              href="/gerard-vergnaud/activite-representation-et-conceptualisation"
             >
               {t('activityAndConcept.title')}
             </a>
@@ -112,7 +112,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/developpement-apprentissage-experience"
+              href="/gerard-vergnaud/developpement-apprentissage-experience"
             >
               {t('development.title')}
             </a>
@@ -120,7 +120,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/piaget-vygotski-frege-constructivisme"
+              href="/gerard-vergnaud/piaget-vygotski-frege-constructivisme"
             >
               {t('piaget.title')}
             </a>
@@ -128,7 +128,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/premieres-annees-de-chercheur"
+              href="/gerard-vergnaud/premieres-annees-de-chercheur"
             >
               {t('firstYears.title')}
             </a>
@@ -136,7 +136,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/didactique-professionnelle-culture-experience"
+              href="/gerard-vergnaud/didactique-professionnelle-culture-experience"
             >
               {t('professional.title')}
             </a>
@@ -144,7 +144,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/epistemologie-psychologie-et-didactique"
+              href="/gerard-vergnaud/epistemologie-psychologie-et-didactique"
             >
               {t('epistemology.title')}
             </a>
@@ -152,7 +152,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/theorie-des-champs-conceptuels"
+              href="/gerard-vergnaud/theorie-des-champs-conceptuels"
             >
               {t('conceptualFields.title')}
             </a>
@@ -160,13 +160,16 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/textes-non-publies"
+              href="/gerard-vergnaud/textes-non-publies"
             >
               {t('unpublished.title')}
             </a>
           </li>
           <li className="my-2">
-            <a className="button button-inverted block" href="/annexes">
+            <a
+              className="button button-inverted block"
+              href="/gerard-vergnaud/annexes"
+            >
               {t('appendix.title')}
             </a>
           </li>

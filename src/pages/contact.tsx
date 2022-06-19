@@ -15,7 +15,7 @@ const Contact = () => {
         </a>
       </p>
       <p className="my-4 flex items-center justify-center">
-        <a className="button button-inverted mt-4" href="/">
+        <a className="button button-inverted mt-4" href="/gerard-vergnaud/">
           {t('backToHome')}
         </a>
       </p>

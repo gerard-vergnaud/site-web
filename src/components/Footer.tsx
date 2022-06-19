@@ -8,12 +8,12 @@ const Footer = () => {
     <footer className="py-2 px-4 bg-primary text-light mt-auto">
       <ul className="flex items-center justify-center">
         <li className="mx-2">
-          <a className="underline" href="/">
+          <a className="underline" href="/gerard-vergnaud/">
             {t('siteOwner')}
           </a>
         </li>
         <li className="mx-2">
-          <a className="underline" href="/contact">
+          <a className="underline" href="/gerard-vergnaud/contact">
             {t('contact.footer')}
           </a>
         </li>

@@ -56,7 +56,7 @@ const TextListLayout = ({
         </ul>
 
         <div className="mt-12 flex items-center justify-center">
-          <a className="button" href="/">
+          <a className="button" href="/gerard-vergnaud/">
             {t('backToHome')}
           </a>
         </div>
