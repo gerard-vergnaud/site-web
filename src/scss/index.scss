@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+body {
+  @apply font-cabin text-zinc-800;
+}
+
+.button {
+  @apply border-2 rounded px-4 py-3 transition-colors duration-200 bg-light border-primary text-primary;
+
+  &.button-inverted {
+    @apply bg-primary border-light text-light;
+  }
+
+  &:hover {
+    @apply bg-primary text-light;
+
+    &.button-inverted {
+      @apply bg-light text-primary;
+    }
+  }
+}
+
+.styled-first-letter {
+  @apply first-letter:text-7xl first-letter:font-bold first-letter:mr-3 first-letter:float-left;
+}
+
+.texts-list {
+  a {
+    @apply text-primary block italic;
+
+    &:hover {
+      @apply underline;
+    }
+  }
+}
+
+@tailwind utilities;
