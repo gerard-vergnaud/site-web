@@ -3,7 +3,7 @@ import type { GatsbyConfig } from 'gatsby';
 const config: GatsbyConfig = {
   siteMetadata: {
     title: 'Gérard Vergnaud',
-    siteUrl: 'https://gerard-vergnaud.com',
+    siteUrl: 'https://www.gerard-vergnaud.org',
     charset: 'UTF-8',
     author: 'Éric Vergnaud, Emmanuelle Vergnaud',
   },

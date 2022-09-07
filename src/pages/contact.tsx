@@ -10,8 +10,8 @@ const Contact = () => {
       <h1 className="text-6xl font-bold">{t('contact.title')}</h1>
       <p className="mt-4 text-2xl">{t('contact.details')}</p>
       <p className="text-3xl font-sans">
-        <a href="mailto:contact@gerard-vergnaud.com">
-          contact@gerard-vergnaud.com
+        <a href="mailto:contact@gerard-vergnaud.org">
+          contact@gerard-vergnaud.org
         </a>
       </p>
       <p className="my-4 flex items-center justify-center">
