@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from '../packages/i18n';
 import Footer from '../components/Footer';
 import { getLink } from '../utils/config';
 
