@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import Footer from '../components/Footer';
+import { getLink } from '../utils/config';
 
 export interface TextItem {
   description?: string;
@@ -56,7 +57,7 @@ const TextListLayout = ({
         </ul>
 
         <div className="mt-12 flex items-center justify-center">
-          <a className="button" href="/gerard-vergnaud/">
+          <a className="button" href={getLink('/')}>
             {t('backToHome')}
           </a>
         </div>

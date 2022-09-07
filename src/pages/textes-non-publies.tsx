@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { useTranslation } from '../packages/i18n';
 import TextListLayout from '../layouts/TextListLayout';
+import { getLink } from '../utils/config';
 
 const Unpublished = () => {
   const [t] = useTranslation();
@@ -18,7 +19,9 @@ const Unpublished = () => {
             "Principes de psychologie. Pour l'étude des compétences complexes",
           title:
             '2011 - Texte non publié, version provisoire non corrigée. Reproduction et circulation du texte interdite Version corrigée prochainement disponible',
-          link: '/gerard-vergnaud/texts/gvergnaud_2011_principes-psychologie_non-publie.pdf',
+          link: getLink(
+            '/texts/gvergnaud_2011_principes-psychologie_non-publie.pdf'
+          ),
         },
       ]}
     />

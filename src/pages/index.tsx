@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import Footer from '../components/Footer';
 import picture from '../images/gerard-vergnaud.jpg';
+import { getLink } from '../utils/config';
 
 const IndexPage = () => {
   const [t] = useTranslation();
@@ -88,7 +89,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/gerard-vergnaud/premiers-exemples"
+              href={getLink('/premiers-exemples')}
             >
               {t('firstExamples.title')}
             </a>
@@ -96,7 +97,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/gerard-vergnaud/forme-operatoire-et-forme-predictive"
+              href={getLink('/forme-operatoire-et-forme-predictive')}
             >
               {t('operatingForm.title')}
             </a>
@@ -104,7 +105,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/gerard-vergnaud/activite-representation-et-conceptualisation"
+              href={getLink('/activite-representation-et-conceptualisation')}
             >
               {t('activityAndConcept.title')}
             </a>
@@ -112,7 +113,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/gerard-vergnaud/developpement-apprentissage-experience"
+              href={getLink('/developpement-apprentissage-experience')}
             >
               {t('development.title')}
             </a>
@@ -120,7 +121,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/gerard-vergnaud/piaget-vygotski-frege-constructivisme"
+              href={getLink('/piaget-vygotski-frege-constructivisme')}
             >
               {t('piaget.title')}
             </a>
@@ -128,7 +129,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/gerard-vergnaud/premieres-annees-de-chercheur"
+              href={getLink('/premieres-annees-de-chercheur')}
             >
               {t('firstYears.title')}
             </a>
@@ -136,7 +137,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/gerard-vergnaud/didactique-professionnelle-culture-experience"
+              href={getLink('/didactique-professionnelle-culture-experience')}
             >
               {t('professional.title')}
             </a>
@@ -144,7 +145,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/gerard-vergnaud/epistemologie-psychologie-et-didactique"
+              href={getLink('/epistemologie-psychologie-et-didactique')}
             >
               {t('epistemology.title')}
             </a>
@@ -152,7 +153,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/gerard-vergnaud/theorie-des-champs-conceptuels"
+              href={getLink('/theorie-des-champs-conceptuels')}
             >
               {t('conceptualFields.title')}
             </a>
@@ -160,7 +161,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/gerard-vergnaud/textes-non-publies"
+              href={getLink('/textes-non-publies')}
             >
               {t('unpublished.title')}
             </a>
@@ -168,7 +169,7 @@ const IndexPage = () => {
           <li className="my-2">
             <a
               className="button button-inverted block"
-              href="/gerard-vergnaud/annexes"
+              href={getLink('/annexes')}
             >
               {t('appendix.title')}
             </a>

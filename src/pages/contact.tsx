@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Footer from '../components/Footer';
 import { useTranslation } from '../packages/i18n';
+import { getLink } from '../utils/config';
 
 const Contact = () => {
   const [t] = useTranslation();
@@ -15,7 +16,7 @@ const Contact = () => {
         </a>
       </p>
       <p className="my-4 flex items-center justify-center">
-        <a className="button button-inverted mt-4" href="/gerard-vergnaud/">
+        <a className="button button-inverted mt-4" href={getLink('/')}>
           {t('backToHome')}
         </a>
       </p>
